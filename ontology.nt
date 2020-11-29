@@ -1,0 +1,231 @@
+<https://w3id.org/con-tax/zones/aat-storeys> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/con-tax/zones/aat-storeys> <http://creativecommons.org/ns#license> <https://opendatacommons.org/licenses/by/1-0/> .
+<https://w3id.org/con-tax/zones/aat-storeys> <http://purl.org/dc/terms/creator> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Individual> .
+<http://www.w3.org/2006/vcard/ns#Individual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2006/vcard/ns#family-name> "Bonduel" .
+_:genid1 <http://www.w3.org/2006/vcard/ns#fn> "Mathias Bonduel" .
+_:genid1 <http://www.w3.org/2006/vcard/ns#given-name> "Mathias" .
+_:genid1 <http://www.w3.org/2006/vcard/ns#hasOrganizationName> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Organization> .
+<http://www.w3.org/2006/vcard/ns#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid2 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.kuleuven.be> .
+_:genid2 <http://www.w3.org/2006/vcard/ns#organization-name> "KU Leuven" .
+_:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://orcid.org/0000-0002-3313-924X> .
+_:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.kuleuven.be/wieiswie/nl/person/00110827> .
+_:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.researchgate.net/profile/Mathias_Bonduel> .
+<https://w3id.org/con-tax/zones/aat-storeys> <http://purl.org/dc/terms/description> "A taxonomy of building storeys (extending bot:Storey) derived from the Getty Art & Architecture Thesaurus (Getty AAT: https://www.getty.edu/research/tools/vocabularies/aat/about.html), v2020-07-29.\r\n\r\nNote: Contains information from the J. Paul Getty Trust, Getty Research Institute, the Art & Architecture Thesaurus, which is made available under the ODC Attribution License."@en .
+<https://w3id.org/con-tax/zones/aat-storeys> <http://purl.org/dc/terms/issued> "2020-11-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/con-tax/zones/aat-storeys> <http://purl.org/dc/terms/title> "AAT-STOREYS taxonomy"@en .
+<https://w3id.org/con-tax/zones/aat-storeys> <http://purl.org/vocab/vann/preferredNamespacePrefix> "aat-storeys" .
+<https://w3id.org/con-tax/zones/aat-storeys> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/con-tax/zones/aat-storeys#" .
+<https://w3id.org/con-tax/zones/aat-storeys> <http://www.w3.org/2000/01/rdf-schema#comment> "- Version 0.0.1: initial version"@en .
+<https://w3id.org/con-tax/zones/aat-storeys> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#family-name
+<http://www.w3.org/2006/vcard/ns#family-name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#fn
+<http://www.w3.org/2006/vcard/ns#fn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#given-name
+<http://www.w3.org/2006/vcard/ns#given-name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasOrganizationName
+<http://www.w3.org/2006/vcard/ns#hasOrganizationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasURL
+<http://www.w3.org/2006/vcard/ns#hasURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#organization-name
+<http://www.w3.org/2006/vcard/ns#organization-name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/vocommons/voaf#Vocabulary
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2006/vcard/ns#Individual
+# 
+# http://www.w3.org/2006/vcard/ns#Organization
+# 
+# https://w3id.org/bot#Storey
+<https://w3id.org/bot#Storey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/con-tax/zones/aat-storeys#300002651
+<https://w3id.org/con-tax/zones/aat-storeys#300002651> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002651> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/zones/aat-storeys#300002667> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002651> <http://www.w3.org/2000/01/rdf-schema#comment> "Delen van gebouwen, die zich, bezien vanaf de buitenzijde, boven de bovenste kroonlijst bevinden; zowel met als zonder vensters."@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002651> <http://www.w3.org/2000/01/rdf-schema#comment> "Use to designate the exterior walled portions of buildings, above the uppermost cornice, whether fenestrated or not."@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300002651> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/zones/aat-storeys> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002651> <http://www.w3.org/2000/01/rdf-schema#label> "attics (exterior stories)"@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300002651> <http://www.w3.org/2000/01/rdf-schema#label> "attiek"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002651> <http://www.w3.org/2000/01/rdf-schema#label> "attieken"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002651> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://vocab.getty.edu/aat/300002651> .
+# 
+# https://w3id.org/con-tax/zones/aat-storeys#300002655
+<https://w3id.org/con-tax/zones/aat-storeys#300002655> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002655> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/zones/aat-storeys#300002667> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002655> <http://www.w3.org/2000/01/rdf-schema#comment> "Bovengedeelten van muren die boven aangrenzende daken uitsteken, en waar ramen inzitten om licht toe te laten in een centrale kamer of ruimte waar lagere kamers of ruimten aan grenzen."@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002655> <http://www.w3.org/2000/01/rdf-schema#comment> "Upper zones of walls rising above adjacent roofs and pierced by windows so as to admit light to a high central room or space flanked by lower rooms or spaces."@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300002655> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/zones/aat-storeys> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002655> <http://www.w3.org/2000/01/rdf-schema#label> "clerestories"@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300002655> <http://www.w3.org/2000/01/rdf-schema#label> "lichtbeuk"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002655> <http://www.w3.org/2000/01/rdf-schema#label> "lichtbeuken"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002655> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://vocab.getty.edu/aat/300002655> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002655> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.wikidata.org/entity/Q580731> .
+# 
+# https://w3id.org/con-tax/zones/aat-storeys#300002667
+<https://w3id.org/con-tax/zones/aat-storeys#300002667> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002667> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Storey> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002667> <http://www.w3.org/2000/01/rdf-schema#comment> "Horizontal stages or levels of a building positioned one above the other and having a habitable or usable room or set of rooms on each level. The term may also refer to horizontal divisions of the exteriors of buildings that typically, but not always, correspond to the levels of interior spaces; exterior indications of stories include tiers or rows of orders, columns, window mullions, or other features disposed horizontally one above another. "@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300002667> <http://www.w3.org/2000/01/rdf-schema#comment> "Wordt gebruikt voor de bewoonbare ruimten tussen twee vloeren van een gebouw, of tussen een vloer en het dak, en voor de horizontale verdelingen aan de buitenkanten van gebouwen die over het algemeen overeenkomen met deze verdeling van de binnenruimte."@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002667> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/zones/aat-storeys> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002667> <http://www.w3.org/2000/01/rdf-schema#label> "bouwlaag"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002667> <http://www.w3.org/2000/01/rdf-schema#label> "bouwlagen"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002667> <http://www.w3.org/2000/01/rdf-schema#label> "etage"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002667> <http://www.w3.org/2000/01/rdf-schema#label> "etages"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002667> <http://www.w3.org/2000/01/rdf-schema#label> "stories (building divisions)"@en-us .
+<https://w3id.org/con-tax/zones/aat-storeys#300002667> <http://www.w3.org/2000/01/rdf-schema#label> "verdieping"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002667> <http://www.w3.org/2000/01/rdf-schema#label> "verdiepingen"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002667> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://vocab.getty.edu/aat/300002667> .
+# 
+# https://w3id.org/con-tax/zones/aat-storeys#300002674
+<https://w3id.org/con-tax/zones/aat-storeys#300002674> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002674> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/zones/aat-storeys#300002667> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002674> <http://www.w3.org/2000/01/rdf-schema#comment> "Lage verdiepingen (letterlijk: halve verdiepingen) tussen twee hogere verdiepingen of bovenin een gebouw; ook balkonachtige verdiepingen boven een deel van de verdieping eronder, waarbij de lagere verdieping meestal, maar niet altijd, de eerste verdieping is."@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002674> <http://www.w3.org/2000/01/rdf-schema#comment> "Low-ceilinged spaces between two stories with higher ceilings, or for balconylike stories over a part of the story below, the lower story usually, but not necessarily, being the first story."@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300002674> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/zones/aat-storeys> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002674> <http://www.w3.org/2000/01/rdf-schema#label> "entresol"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002674> <http://www.w3.org/2000/01/rdf-schema#label> "entresols"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002674> <http://www.w3.org/2000/01/rdf-schema#label> "mezzanine"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002674> <http://www.w3.org/2000/01/rdf-schema#label> "mezzanines"@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300002674> <http://www.w3.org/2000/01/rdf-schema#label> "mezzanines"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002674> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://vocab.getty.edu/aat/300002674> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002674> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.wikidata.org/entity/Q958148> .
+# 
+# https://w3id.org/con-tax/zones/aat-storeys#300002675
+<https://w3id.org/con-tax/zones/aat-storeys#300002675> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002675> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/zones/aat-storeys#300002667> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002675> <http://www.w3.org/2000/01/rdf-schema#comment> "Belangrijkste verdiepingen van huizen, waarin zich de representatieve ruimten bevinden. DEB"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002675> <http://www.w3.org/2000/01/rdf-schema#comment> "Use to designate second or sometimes third stories given greater apparent height or prominence on the exterior and a higher ceiling within, and containing the principal rooms of a building."@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300002675> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/zones/aat-storeys> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002675> <http://www.w3.org/2000/01/rdf-schema#label> "bel-etage"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002675> <http://www.w3.org/2000/01/rdf-schema#label> "bel-etages"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002675> <http://www.w3.org/2000/01/rdf-schema#label> "piani nobili"@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300002675> <http://www.w3.org/2000/01/rdf-schema#label> "piani nobili"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002675> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://vocab.getty.edu/aat/300002675> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002675> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.wikidata.org/entity/Q815421> .
+# 
+# https://w3id.org/con-tax/zones/aat-storeys#300002678
+<https://w3id.org/con-tax/zones/aat-storeys#300002678> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002678> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/zones/aat-storeys#300002667> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002678> <http://www.w3.org/2000/01/rdf-schema#comment> "Stories in basilican church interiors that correspond to the level between the vaulting and the aisle roof, or the vaulting of the tribune and the tribune roof; may or may not contain a small passage. Distinct from \"tribunes (stories),\" which always have substantial passages."@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300002678> <http://www.w3.org/2000/01/rdf-schema#comment> "Verdiepingen in basilicale kerkinterieurs net onder het dak van de zijbeuk of - indien aanwezig - net onder het dak van de tribune, geopend naar het middenschip; ze kunnen een kleine doorgang bevatten. Te onderscheiden van 'tribunes (verdiepingen)', die altijd ruime doorgangen hebben."@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002678> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/zones/aat-storeys> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002678> <http://www.w3.org/2000/01/rdf-schema#label> "triforia"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002678> <http://www.w3.org/2000/01/rdf-schema#label> "triforium"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002678> <http://www.w3.org/2000/01/rdf-schema#label> "triforiums"@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300002678> <http://www.w3.org/2000/01/rdf-schema#label> "triforiums"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300002678> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://vocab.getty.edu/aat/300002678> .
+<https://w3id.org/con-tax/zones/aat-storeys#300002678> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.wikidata.org/entity/Q751239> .
+# 
+# https://w3id.org/con-tax/zones/aat-storeys#300004757
+<https://w3id.org/con-tax/zones/aat-storeys#300004757> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/zones/aat-storeys#300004757> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/zones/aat-storeys#300002667> .
+<https://w3id.org/con-tax/zones/aat-storeys#300004757> <http://www.w3.org/2000/01/rdf-schema#comment> "Use to designate stories wholly or partly underground. For similar spaces used solely for storage, particularly food, prefer \"cellars.\""@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300004757> <http://www.w3.org/2000/01/rdf-schema#comment> "Verdiepingen die geheel of gedeeltelijk onder de grond liggen. Voor soortgelijke ruimten die alleen voor opslag van vooral voedsel worden gebruikt, wordt aan 'kelders' de voorkeur gegeven."@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300004757> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/zones/aat-storeys> .
+<https://w3id.org/con-tax/zones/aat-storeys#300004757> <http://www.w3.org/2000/01/rdf-schema#label> "basements"@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300004757> <http://www.w3.org/2000/01/rdf-schema#label> "kelderverdieping"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300004757> <http://www.w3.org/2000/01/rdf-schema#label> "kelderverdiepingen"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300004757> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://vocab.getty.edu/aat/300004757> .
+<https://w3id.org/con-tax/zones/aat-storeys#300004757> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.wikidata.org/entity/Q234852> .
+# 
+# https://w3id.org/con-tax/zones/aat-storeys#300076650
+<https://w3id.org/con-tax/zones/aat-storeys#300076650> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/zones/aat-storeys#300076650> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/zones/aat-storeys#300002667> .
+<https://w3id.org/con-tax/zones/aat-storeys#300076650> <http://www.w3.org/2000/01/rdf-schema#comment> "Kelderverdiepingen onder souterrains."@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300076650> <http://www.w3.org/2000/01/rdf-schema#comment> "Use to designate stories beneath basements."@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300076650> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/zones/aat-storeys> .
+<https://w3id.org/con-tax/zones/aat-storeys#300076650> <http://www.w3.org/2000/01/rdf-schema#label> "onderkelder"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300076650> <http://www.w3.org/2000/01/rdf-schema#label> "onderkelders"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300076650> <http://www.w3.org/2000/01/rdf-schema#label> "subbasements"@en-us .
+<https://w3id.org/con-tax/zones/aat-storeys#300076650> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://vocab.getty.edu/aat/300076650> .
+# 
+# https://w3id.org/con-tax/zones/aat-storeys#300082077
+<https://w3id.org/con-tax/zones/aat-storeys#300082077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/zones/aat-storeys#300082077> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/zones/aat-storeys#300002667> .
+<https://w3id.org/con-tax/zones/aat-storeys#300082077> <http://www.w3.org/2000/01/rdf-schema#comment> "Stories in basilican churches that are above the nave arcade and contain a substantial gallery passage; distinct from \"triforiums,\" which always are at the level just below the side roof and do not have large passages."@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300082077> <http://www.w3.org/2000/01/rdf-schema#comment> "Verdiepingen in basilicale kerken die zich boven de arcatuur van het schip bevinden, en die een ruime doorgang bevatten. Te onderscheiden van 'triforiums' die zich altijd op het niveau net onder het dak van de zijbeuk bevinden en die geen ruime doorgangen hebben."@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300082077> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/zones/aat-storeys> .
+<https://w3id.org/con-tax/zones/aat-storeys#300082077> <http://www.w3.org/2000/01/rdf-schema#label> "tribune"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300082077> <http://www.w3.org/2000/01/rdf-schema#label> "tribune (verdieping)"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300082077> <http://www.w3.org/2000/01/rdf-schema#label> "tribunes"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300082077> <http://www.w3.org/2000/01/rdf-schema#label> "tribunes (stories)"@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300082077> <http://www.w3.org/2000/01/rdf-schema#label> "tribunes (verdiepingen)"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300082077> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://vocab.getty.edu/aat/300082077> .
+# 
+# https://w3id.org/con-tax/zones/aat-storeys#300265217
+<https://w3id.org/con-tax/zones/aat-storeys#300265217> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/zones/aat-storeys#300265217> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/zones/aat-storeys#300004757> .
+<https://w3id.org/con-tax/zones/aat-storeys#300265217> <http://www.w3.org/2000/01/rdf-schema#comment> "Etage van een gebouw die deels onder en deels boven grondniveau ligt, en op dat niveau geen ingang heeft."@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300265217> <http://www.w3.org/2000/01/rdf-schema#comment> "Floor of a building that is partially both below and above ground level, and lacking an entrance at that level."@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300265217> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/zones/aat-storeys> .
+<https://w3id.org/con-tax/zones/aat-storeys#300265217> <http://www.w3.org/2000/01/rdf-schema#label> "English basements"@en .
+<https://w3id.org/con-tax/zones/aat-storeys#300265217> <http://www.w3.org/2000/01/rdf-schema#label> "souterrains"@nl .
+<https://w3id.org/con-tax/zones/aat-storeys#300265217> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://vocab.getty.edu/aat/300265217> .
+<https://w3id.org/con-tax/zones/aat-storeys#300265217> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.wikidata.org/entity/Q5378424> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/resource/Katholieke_Universiteit_Leuven
+# 
+# https://w3id.org/con-tax/zones/aat-storeys
+<https://w3id.org/con-tax/zones/aat-storeys> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/con-tax/zones/aat-storeys> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

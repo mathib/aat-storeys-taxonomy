@@ -1,0 +1,184 @@
+# baseURI: https://w3id.org/con-tax/zones/aat-storeys
+# prefix: aat-stories
+
+@prefix : <https://w3id.org/con-tax/zones/aat-storeys#> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix aat-storeys: <https://w3id.org/con-tax/zones/aat-storeys#> .
+@prefix aat-stories: <https://w3id.org/con-tax/zones/aat-storeys#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix contax: <https://w3id.org/con-tax#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix gvp: <http://vocab.getty.edu/ontology#> .
+@prefix iso-thes: <http://purl.org/iso25964/skos-thes#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bot:Storey
+  rdf:type owl:Class ;
+.
+<https://w3id.org/con-tax/zones/aat-storeys>
+  rdf:type voaf:Vocabulary ;
+  rdf:type owl:Ontology ;
+  cc:license <https://opendatacommons.org/licenses/by/1-0/> ;
+  dcterms:creator [
+      rdf:type vcard:Individual ;
+      vcard:family-name "Bonduel" ;
+      vcard:fn "Mathias Bonduel" ;
+      vcard:given-name "Mathias" ;
+      vcard:hasOrganizationName [
+          rdf:type vcard:Organization ;
+          owl:sameAs dbr:Katholieke_Universiteit_Leuven ;
+          vcard:hasURL <https://www.kuleuven.be> ;
+          vcard:organization-name "KU Leuven" ;
+        ] ;
+      vcard:hasURL <https://orcid.org/0000-0002-3313-924X> ;
+      vcard:hasURL <https://www.kuleuven.be/wieiswie/nl/person/00110827> ;
+      vcard:hasURL <https://www.researchgate.net/profile/Mathias_Bonduel> ;
+    ] ;
+  dcterms:description """A taxonomy of building storeys (extending bot:Storey) derived from the Getty Art & Architecture Thesaurus (Getty AAT: https://www.getty.edu/research/tools/vocabularies/aat/about.html), v2020-07-29.
+
+Note: Contains information from the J. Paul Getty Trust, Getty Research Institute, the Art & Architecture Thesaurus, which is made available under the ODC Attribution License."""@en ;
+  dcterms:issued "2020-11-29"^^xsd:date ;
+  dcterms:title "AAT-STOREYS taxonomy"@en ;
+  vann:preferredNamespacePrefix "aat-storeys" ;
+  vann:preferredNamespaceUri "https://w3id.org/con-tax/zones/aat-storeys#" ;
+  rdfs:comment "- Version 0.0.1: initial version"@en ;
+  owl:versionInfo "0.0.1" ;
+.
+<https://w3id.org/con-tax/zones/aat-storeys#300002651>
+  rdf:type owl:Class ;
+  rdfs:comment "Delen van gebouwen, die zich, bezien vanaf de buitenzijde, boven de bovenste kroonlijst bevinden; zowel met als zonder vensters."@nl ;
+  rdfs:comment "Use to designate the exterior walled portions of buildings, above the uppermost cornice, whether fenestrated or not."@en ;
+  rdfs:isDefinedBy <https://w3id.org/con-tax/zones/aat-storeys> ;
+  rdfs:label "attics (exterior stories)"@en ;
+  rdfs:label "attiek"@nl ;
+  rdfs:label "attieken"@nl ;
+  rdfs:seeAlso <http://vocab.getty.edu/aat/300002651> ;
+  rdfs:subClassOf <https://w3id.org/con-tax/zones/aat-storeys#300002667> ;
+.
+<https://w3id.org/con-tax/zones/aat-storeys#300002655>
+  rdf:type owl:Class ;
+  rdfs:comment "Bovengedeelten van muren die boven aangrenzende daken uitsteken, en waar ramen inzitten om licht toe te laten in een centrale kamer of ruimte waar lagere kamers of ruimten aan grenzen."@nl ;
+  rdfs:comment "Upper zones of walls rising above adjacent roofs and pierced by windows so as to admit light to a high central room or space flanked by lower rooms or spaces."@en ;
+  rdfs:isDefinedBy <https://w3id.org/con-tax/zones/aat-storeys> ;
+  rdfs:label "clerestories"@en ;
+  rdfs:label "lichtbeuk"@nl ;
+  rdfs:label "lichtbeuken"@nl ;
+  rdfs:seeAlso <http://vocab.getty.edu/aat/300002655> ;
+  rdfs:seeAlso wd:Q580731 ;
+  rdfs:subClassOf <https://w3id.org/con-tax/zones/aat-storeys#300002667> ;
+.
+<https://w3id.org/con-tax/zones/aat-storeys#300002667>
+  rdf:type owl:Class ;
+  rdfs:comment "Horizontal stages or levels of a building positioned one above the other and having a habitable or usable room or set of rooms on each level. The term may also refer to horizontal divisions of the exteriors of buildings that typically, but not always, correspond to the levels of interior spaces; exterior indications of stories include tiers or rows of orders, columns, window mullions, or other features disposed horizontally one above another. "@en ;
+  rdfs:comment "Wordt gebruikt voor de bewoonbare ruimten tussen twee vloeren van een gebouw, of tussen een vloer en het dak, en voor de horizontale verdelingen aan de buitenkanten van gebouwen die over het algemeen overeenkomen met deze verdeling van de binnenruimte."@nl ;
+  rdfs:isDefinedBy <https://w3id.org/con-tax/zones/aat-storeys> ;
+  rdfs:label "bouwlaag"@nl ;
+  rdfs:label "bouwlagen"@nl ;
+  rdfs:label "etage"@nl ;
+  rdfs:label "etages"@nl ;
+  rdfs:label "stories (building divisions)"@en-us ;
+  rdfs:label "verdieping"@nl ;
+  rdfs:label "verdiepingen"@nl ;
+  rdfs:seeAlso <http://vocab.getty.edu/aat/300002667> ;
+  rdfs:subClassOf bot:Storey ;
+.
+<https://w3id.org/con-tax/zones/aat-storeys#300002674>
+  rdf:type owl:Class ;
+  rdfs:comment "Lage verdiepingen (letterlijk: halve verdiepingen) tussen twee hogere verdiepingen of bovenin een gebouw; ook balkonachtige verdiepingen boven een deel van de verdieping eronder, waarbij de lagere verdieping meestal, maar niet altijd, de eerste verdieping is."@nl ;
+  rdfs:comment "Low-ceilinged spaces between two stories with higher ceilings, or for balconylike stories over a part of the story below, the lower story usually, but not necessarily, being the first story."@en ;
+  rdfs:isDefinedBy <https://w3id.org/con-tax/zones/aat-storeys> ;
+  rdfs:label "entresol"@nl ;
+  rdfs:label "entresols"@nl ;
+  rdfs:label "mezzanine"@nl ;
+  rdfs:label "mezzanines"@en ;
+  rdfs:label "mezzanines"@nl ;
+  rdfs:seeAlso <http://vocab.getty.edu/aat/300002674> ;
+  rdfs:seeAlso wd:Q958148 ;
+  rdfs:subClassOf <https://w3id.org/con-tax/zones/aat-storeys#300002667> ;
+.
+<https://w3id.org/con-tax/zones/aat-storeys#300002675>
+  rdf:type owl:Class ;
+  rdfs:comment "Belangrijkste verdiepingen van huizen, waarin zich de representatieve ruimten bevinden. DEB"@nl ;
+  rdfs:comment "Use to designate second or sometimes third stories given greater apparent height or prominence on the exterior and a higher ceiling within, and containing the principal rooms of a building."@en ;
+  rdfs:isDefinedBy <https://w3id.org/con-tax/zones/aat-storeys> ;
+  rdfs:label "bel-etage"@nl ;
+  rdfs:label "bel-etages"@nl ;
+  rdfs:label "piani nobili"@en ;
+  rdfs:label "piani nobili"@nl ;
+  rdfs:seeAlso <http://vocab.getty.edu/aat/300002675> ;
+  rdfs:seeAlso wd:Q815421 ;
+  rdfs:subClassOf <https://w3id.org/con-tax/zones/aat-storeys#300002667> ;
+.
+<https://w3id.org/con-tax/zones/aat-storeys#300002678>
+  rdf:type owl:Class ;
+  rdfs:comment "Stories in basilican church interiors that correspond to the level between the vaulting and the aisle roof, or the vaulting of the tribune and the tribune roof; may or may not contain a small passage. Distinct from \"tribunes (stories),\" which always have substantial passages."@en ;
+  rdfs:comment "Verdiepingen in basilicale kerkinterieurs net onder het dak van de zijbeuk of - indien aanwezig - net onder het dak van de tribune, geopend naar het middenschip; ze kunnen een kleine doorgang bevatten. Te onderscheiden van 'tribunes (verdiepingen)', die altijd ruime doorgangen hebben."@nl ;
+  rdfs:isDefinedBy <https://w3id.org/con-tax/zones/aat-storeys> ;
+  rdfs:label "triforia"@nl ;
+  rdfs:label "triforium"@nl ;
+  rdfs:label "triforiums"@en ;
+  rdfs:label "triforiums"@nl ;
+  rdfs:seeAlso <http://vocab.getty.edu/aat/300002678> ;
+  rdfs:seeAlso wd:Q751239 ;
+  rdfs:subClassOf <https://w3id.org/con-tax/zones/aat-storeys#300002667> ;
+.
+<https://w3id.org/con-tax/zones/aat-storeys#300004757>
+  rdf:type owl:Class ;
+  rdfs:comment "Use to designate stories wholly or partly underground. For similar spaces used solely for storage, particularly food, prefer \"cellars.\""@en ;
+  rdfs:comment "Verdiepingen die geheel of gedeeltelijk onder de grond liggen. Voor soortgelijke ruimten die alleen voor opslag van vooral voedsel worden gebruikt, wordt aan 'kelders' de voorkeur gegeven."@nl ;
+  rdfs:isDefinedBy <https://w3id.org/con-tax/zones/aat-storeys> ;
+  rdfs:label "basements"@en ;
+  rdfs:label "kelderverdieping"@nl ;
+  rdfs:label "kelderverdiepingen"@nl ;
+  rdfs:seeAlso <http://vocab.getty.edu/aat/300004757> ;
+  rdfs:seeAlso wd:Q234852 ;
+  rdfs:subClassOf <https://w3id.org/con-tax/zones/aat-storeys#300002667> ;
+.
+<https://w3id.org/con-tax/zones/aat-storeys#300076650>
+  rdf:type owl:Class ;
+  rdfs:comment "Kelderverdiepingen onder souterrains."@nl ;
+  rdfs:comment "Use to designate stories beneath basements."@en ;
+  rdfs:isDefinedBy <https://w3id.org/con-tax/zones/aat-storeys> ;
+  rdfs:label "onderkelder"@nl ;
+  rdfs:label "onderkelders"@nl ;
+  rdfs:label "subbasements"@en-us ;
+  rdfs:seeAlso <http://vocab.getty.edu/aat/300076650> ;
+  rdfs:subClassOf <https://w3id.org/con-tax/zones/aat-storeys#300002667> ;
+.
+<https://w3id.org/con-tax/zones/aat-storeys#300082077>
+  rdf:type owl:Class ;
+  rdfs:comment "Stories in basilican churches that are above the nave arcade and contain a substantial gallery passage; distinct from \"triforiums,\" which always are at the level just below the side roof and do not have large passages."@en ;
+  rdfs:comment "Verdiepingen in basilicale kerken die zich boven de arcatuur van het schip bevinden, en die een ruime doorgang bevatten. Te onderscheiden van 'triforiums' die zich altijd op het niveau net onder het dak van de zijbeuk bevinden en die geen ruime doorgangen hebben."@nl ;
+  rdfs:isDefinedBy <https://w3id.org/con-tax/zones/aat-storeys> ;
+  rdfs:label "tribune (verdieping)"@nl ;
+  rdfs:label "tribune"@nl ;
+  rdfs:label "tribunes (stories)"@en ;
+  rdfs:label "tribunes (verdiepingen)"@nl ;
+  rdfs:label "tribunes"@nl ;
+  rdfs:seeAlso <http://vocab.getty.edu/aat/300082077> ;
+  rdfs:subClassOf <https://w3id.org/con-tax/zones/aat-storeys#300002667> ;
+.
+<https://w3id.org/con-tax/zones/aat-storeys#300265217>
+  rdf:type owl:Class ;
+  rdfs:comment "Etage van een gebouw die deels onder en deels boven grondniveau ligt, en op dat niveau geen ingang heeft."@nl ;
+  rdfs:comment "Floor of a building that is partially both below and above ground level, and lacking an entrance at that level."@en ;
+  rdfs:isDefinedBy <https://w3id.org/con-tax/zones/aat-storeys> ;
+  rdfs:label "English basements"@en ;
+  rdfs:label "souterrains"@nl ;
+  rdfs:seeAlso <http://vocab.getty.edu/aat/300265217> ;
+  rdfs:seeAlso wd:Q5378424 ;
+  rdfs:subClassOf <https://w3id.org/con-tax/zones/aat-storeys#300004757> ;
+.

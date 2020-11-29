@@ -1,0 +1,393 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/con-tax/zones/aat-storeys#"
+     xml:base="https://w3id.org/con-tax/zones/aat-storeys"
+     xmlns:ns="http://www.w3.org/2006/vcard/ns#"
+     xmlns:ns1="http://creativecommons.org/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/con-tax/zones/aat-storeys">
+        <ns1:license rdf:resource="https://opendatacommons.org/licenses/by/1-0/"/>
+        <terms:creator rdf:nodeID="genid1"/>
+        <terms:description xml:lang="en">A taxonomy of building storeys (extending bot:Storey) derived from the Getty Art &amp; Architecture Thesaurus (Getty AAT: https://www.getty.edu/research/tools/vocabularies/aat/about.html), v2020-07-29.
+
+Note: Contains information from the J. Paul Getty Trust, Getty Research Institute, the Art &amp; Architecture Thesaurus, which is made available under the ODC Attribution License.</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-29</terms:issued>
+        <terms:title xml:lang="en">AAT-STOREYS taxonomy</terms:title>
+        <vann:preferredNamespacePrefix>aat-storeys</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/con-tax/zones/aat-storeys#</vann:preferredNamespaceUri>
+        <rdfs:comment xml:lang="en">- Version 0.0.1: initial version</rdfs:comment>
+        <owl:versionInfo>0.0.1</owl:versionInfo>
+    </owl:Ontology>
+    <rdf:Description rdf:nodeID="genid1">
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Individual"/>
+        <ns:family-name>Bonduel</ns:family-name>
+        <ns:fn>Mathias Bonduel</ns:fn>
+        <ns:given-name>Mathias</ns:given-name>
+        <ns:hasOrganizationName rdf:nodeID="genid2"/>
+        <ns:hasURL rdf:resource="https://orcid.org/0000-0002-3313-924X"/>
+        <ns:hasURL rdf:resource="https://www.kuleuven.be/wieiswie/nl/person/00110827"/>
+        <ns:hasURL rdf:resource="https://www.researchgate.net/profile/Mathias_Bonduel"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid2">
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <ns:hasURL rdf:resource="https://www.kuleuven.be"/>
+        <ns:organization-name>KU Leuven</ns:organization-name>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#family-name -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2006/vcard/ns#family-name"/>
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#fn -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#given-name -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2006/vcard/ns#given-name"/>
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#hasOrganizationName -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasOrganizationName"/>
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#hasURL -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasURL"/>
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#organization-name -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2006/vcard/ns#organization-name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/vocommons/voaf#Vocabulary -->
+
+
+    <owl:Class rdf:about="http://purl.org/vocommons/voaf#Vocabulary"/>
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#Individual -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/vcard/ns#Individual"/>
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#Organization -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/vcard/ns#Organization"/>
+    
+
+
+    <!-- https://w3id.org/bot#Storey -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bot#Storey"/>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/aat-storeys#300002651 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/con-tax/zones/aat-storeys#300002651">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/con-tax/zones/aat-storeys#300002667"/>
+        <rdfs:comment xml:lang="nl">Delen van gebouwen, die zich, bezien vanaf de buitenzijde, boven de bovenste kroonlijst bevinden; zowel met als zonder vensters.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Use to designate the exterior walled portions of buildings, above the uppermost cornice, whether fenestrated or not.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/zones/aat-storeys"/>
+        <rdfs:label xml:lang="en">attics (exterior stories)</rdfs:label>
+        <rdfs:label xml:lang="nl">attiek</rdfs:label>
+        <rdfs:label xml:lang="nl">attieken</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://vocab.getty.edu/aat/300002651"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/aat-storeys#300002655 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/con-tax/zones/aat-storeys#300002655">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/con-tax/zones/aat-storeys#300002667"/>
+        <rdfs:comment xml:lang="nl">Bovengedeelten van muren die boven aangrenzende daken uitsteken, en waar ramen inzitten om licht toe te laten in een centrale kamer of ruimte waar lagere kamers of ruimten aan grenzen.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Upper zones of walls rising above adjacent roofs and pierced by windows so as to admit light to a high central room or space flanked by lower rooms or spaces.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/zones/aat-storeys"/>
+        <rdfs:label xml:lang="en">clerestories</rdfs:label>
+        <rdfs:label xml:lang="nl">lichtbeuk</rdfs:label>
+        <rdfs:label xml:lang="nl">lichtbeuken</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://vocab.getty.edu/aat/300002655"/>
+        <rdfs:seeAlso rdf:resource="http://www.wikidata.org/entity/Q580731"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/aat-storeys#300002667 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/con-tax/zones/aat-storeys#300002667">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Storey"/>
+        <rdfs:comment xml:lang="en">Horizontal stages or levels of a building positioned one above the other and having a habitable or usable room or set of rooms on each level. The term may also refer to horizontal divisions of the exteriors of buildings that typically, but not always, correspond to the levels of interior spaces; exterior indications of stories include tiers or rows of orders, columns, window mullions, or other features disposed horizontally one above another. </rdfs:comment>
+        <rdfs:comment xml:lang="nl">Wordt gebruikt voor de bewoonbare ruimten tussen twee vloeren van een gebouw, of tussen een vloer en het dak, en voor de horizontale verdelingen aan de buitenkanten van gebouwen die over het algemeen overeenkomen met deze verdeling van de binnenruimte.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/zones/aat-storeys"/>
+        <rdfs:label xml:lang="nl">bouwlaag</rdfs:label>
+        <rdfs:label xml:lang="nl">bouwlagen</rdfs:label>
+        <rdfs:label xml:lang="nl">etage</rdfs:label>
+        <rdfs:label xml:lang="nl">etages</rdfs:label>
+        <rdfs:label xml:lang="en-us">stories (building divisions)</rdfs:label>
+        <rdfs:label xml:lang="nl">verdieping</rdfs:label>
+        <rdfs:label xml:lang="nl">verdiepingen</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://vocab.getty.edu/aat/300002667"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/aat-storeys#300002674 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/con-tax/zones/aat-storeys#300002674">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/con-tax/zones/aat-storeys#300002667"/>
+        <rdfs:comment xml:lang="nl">Lage verdiepingen (letterlijk: halve verdiepingen) tussen twee hogere verdiepingen of bovenin een gebouw; ook balkonachtige verdiepingen boven een deel van de verdieping eronder, waarbij de lagere verdieping meestal, maar niet altijd, de eerste verdieping is.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Low-ceilinged spaces between two stories with higher ceilings, or for balconylike stories over a part of the story below, the lower story usually, but not necessarily, being the first story.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/zones/aat-storeys"/>
+        <rdfs:label xml:lang="nl">entresol</rdfs:label>
+        <rdfs:label xml:lang="nl">entresols</rdfs:label>
+        <rdfs:label xml:lang="nl">mezzanine</rdfs:label>
+        <rdfs:label xml:lang="en">mezzanines</rdfs:label>
+        <rdfs:label xml:lang="nl">mezzanines</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://vocab.getty.edu/aat/300002674"/>
+        <rdfs:seeAlso rdf:resource="http://www.wikidata.org/entity/Q958148"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/aat-storeys#300002675 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/con-tax/zones/aat-storeys#300002675">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/con-tax/zones/aat-storeys#300002667"/>
+        <rdfs:comment xml:lang="nl">Belangrijkste verdiepingen van huizen, waarin zich de representatieve ruimten bevinden. DEB</rdfs:comment>
+        <rdfs:comment xml:lang="en">Use to designate second or sometimes third stories given greater apparent height or prominence on the exterior and a higher ceiling within, and containing the principal rooms of a building.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/zones/aat-storeys"/>
+        <rdfs:label xml:lang="nl">bel-etage</rdfs:label>
+        <rdfs:label xml:lang="nl">bel-etages</rdfs:label>
+        <rdfs:label xml:lang="en">piani nobili</rdfs:label>
+        <rdfs:label xml:lang="nl">piani nobili</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://vocab.getty.edu/aat/300002675"/>
+        <rdfs:seeAlso rdf:resource="http://www.wikidata.org/entity/Q815421"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/aat-storeys#300002678 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/con-tax/zones/aat-storeys#300002678">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/con-tax/zones/aat-storeys#300002667"/>
+        <rdfs:comment xml:lang="en">Stories in basilican church interiors that correspond to the level between the vaulting and the aisle roof, or the vaulting of the tribune and the tribune roof; may or may not contain a small passage. Distinct from &quot;tribunes (stories),&quot; which always have substantial passages.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Verdiepingen in basilicale kerkinterieurs net onder het dak van de zijbeuk of - indien aanwezig - net onder het dak van de tribune, geopend naar het middenschip; ze kunnen een kleine doorgang bevatten. Te onderscheiden van &apos;tribunes (verdiepingen)&apos;, die altijd ruime doorgangen hebben.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/zones/aat-storeys"/>
+        <rdfs:label xml:lang="nl">triforia</rdfs:label>
+        <rdfs:label xml:lang="nl">triforium</rdfs:label>
+        <rdfs:label xml:lang="en">triforiums</rdfs:label>
+        <rdfs:label xml:lang="nl">triforiums</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://vocab.getty.edu/aat/300002678"/>
+        <rdfs:seeAlso rdf:resource="http://www.wikidata.org/entity/Q751239"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/aat-storeys#300004757 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/con-tax/zones/aat-storeys#300004757">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/con-tax/zones/aat-storeys#300002667"/>
+        <rdfs:comment xml:lang="en">Use to designate stories wholly or partly underground. For similar spaces used solely for storage, particularly food, prefer &quot;cellars.&quot;</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Verdiepingen die geheel of gedeeltelijk onder de grond liggen. Voor soortgelijke ruimten die alleen voor opslag van vooral voedsel worden gebruikt, wordt aan &apos;kelders&apos; de voorkeur gegeven.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/zones/aat-storeys"/>
+        <rdfs:label xml:lang="en">basements</rdfs:label>
+        <rdfs:label xml:lang="nl">kelderverdieping</rdfs:label>
+        <rdfs:label xml:lang="nl">kelderverdiepingen</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://vocab.getty.edu/aat/300004757"/>
+        <rdfs:seeAlso rdf:resource="http://www.wikidata.org/entity/Q234852"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/aat-storeys#300076650 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/con-tax/zones/aat-storeys#300076650">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/con-tax/zones/aat-storeys#300002667"/>
+        <rdfs:comment xml:lang="nl">Kelderverdiepingen onder souterrains.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Use to designate stories beneath basements.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/zones/aat-storeys"/>
+        <rdfs:label xml:lang="nl">onderkelder</rdfs:label>
+        <rdfs:label xml:lang="nl">onderkelders</rdfs:label>
+        <rdfs:label xml:lang="en-us">subbasements</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://vocab.getty.edu/aat/300076650"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/aat-storeys#300082077 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/con-tax/zones/aat-storeys#300082077">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/con-tax/zones/aat-storeys#300002667"/>
+        <rdfs:comment xml:lang="en">Stories in basilican churches that are above the nave arcade and contain a substantial gallery passage; distinct from &quot;triforiums,&quot; which always are at the level just below the side roof and do not have large passages.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Verdiepingen in basilicale kerken die zich boven de arcatuur van het schip bevinden, en die een ruime doorgang bevatten. Te onderscheiden van &apos;triforiums&apos; die zich altijd op het niveau net onder het dak van de zijbeuk bevinden en die geen ruime doorgangen hebben.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/zones/aat-storeys"/>
+        <rdfs:label xml:lang="nl">tribune</rdfs:label>
+        <rdfs:label xml:lang="nl">tribune (verdieping)</rdfs:label>
+        <rdfs:label xml:lang="nl">tribunes</rdfs:label>
+        <rdfs:label xml:lang="en">tribunes (stories)</rdfs:label>
+        <rdfs:label xml:lang="nl">tribunes (verdiepingen)</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://vocab.getty.edu/aat/300082077"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/aat-storeys#300265217 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/con-tax/zones/aat-storeys#300265217">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/con-tax/zones/aat-storeys#300004757"/>
+        <rdfs:comment xml:lang="nl">Etage van een gebouw die deels onder en deels boven grondniveau ligt, en op dat niveau geen ingang heeft.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Floor of a building that is partially both below and above ground level, and lacking an entrance at that level.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/zones/aat-storeys"/>
+        <rdfs:label xml:lang="en">English basements</rdfs:label>
+        <rdfs:label xml:lang="nl">souterrains</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://vocab.getty.edu/aat/300265217"/>
+        <rdfs:seeAlso rdf:resource="http://www.wikidata.org/entity/Q5378424"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://dbpedia.org/resource/Katholieke_Universiteit_Leuven -->
+
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Katholieke_Universiteit_Leuven"/>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/aat-storeys -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/con-tax/zones/aat-storeys">
+        <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

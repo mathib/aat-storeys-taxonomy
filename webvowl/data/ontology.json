@@ -1,0 +1,556 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en-us", "en", "nl", "undefined" ],
+    "baseIris" : [ "https://w3id.org/bot", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.org/vocommons/voaf", "https://w3id.org/con-tax/zones/aat-storeys", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/2006/vcard/ns" ],
+    "title" : {
+      "en" : "AAT-STOREYS taxonomy"
+    },
+    "iri" : "https://w3id.org/con-tax/zones/aat-storeys",
+    "version" : "0.0.1",
+    "author" : [ "_:genid2147483648" ],
+    "description" : {
+      "en" : "A taxonomy of building storeys (extending bot:Storey) derived from the Getty Art & Architecture Thesaurus (Getty AAT: https://www.getty.edu/research/tools/vocabularies/aat/about.html), v2020-07-29.\r\n\r\nNote: Contains information from the J. Paul Getty Trust, Getty Research Institute, the Art & Architecture Thesaurus, which is made available under the ODC Attribution License."
+    },
+    "comments" : {
+      "en" : "- Version 0.0.1: initial version"
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://opendatacommons.org/licenses/by/1-0/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "_:genid2147483648",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "aat-storeys",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.0.1",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/zones/aat-storeys#",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "AAT-STOREYS taxonomy",
+        "type" : "label"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2020-08-07",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/con-tax/zones/aat-storeys#300082077",
+    "baseIri" : "https://w3id.org/con-tax/zones/aat-storeys",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/zones/aat-storeys",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://vocab.getty.edu/aat/300082077",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "300082077",
+      "en" : "tribunes (stories)",
+      "nl" : "tribunes (verdiepingen)"
+    },
+    "comment" : {
+      "en" : "Stories in basilican churches that are above the nave arcade and contain a substantial gallery passage; distinct from \"triforiums,\" which always are at the level just below the side roof and do not have large passages.",
+      "nl" : "Verdiepingen in basilicale kerken die zich boven de arcatuur van het schip bevinden, en die een ruime doorgang bevatten. Te onderscheiden van 'triforiums' die zich altijd op het niveau net onder het dak van de zijbeuk bevinden en die geen ruime doorgangen hebben."
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/vcard/ns#Organization",
+    "baseIri" : "http://www.w3.org/2006/vcard/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://w3id.org/con-tax/zones/aat-storeys#300002651",
+    "baseIri" : "https://w3id.org/con-tax/zones/aat-storeys",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/zones/aat-storeys",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://vocab.getty.edu/aat/300002651",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "300002651",
+      "en" : "attics (exterior stories)",
+      "nl" : "attieken"
+    },
+    "comment" : {
+      "en" : "Use to designate the exterior walled portions of buildings, above the uppermost cornice, whether fenestrated or not.",
+      "nl" : "Delen van gebouwen, die zich, bezien vanaf de buitenzijde, boven de bovenste kroonlijst bevinden; zowel met als zonder vensters."
+    },
+    "id" : "18",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/zones/aat-storeys#300002674",
+    "baseIri" : "https://w3id.org/con-tax/zones/aat-storeys",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/zones/aat-storeys",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.wikidata.org/entity/Q958148",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://vocab.getty.edu/aat/300002674",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "300002674",
+      "en" : "mezzanines",
+      "nl" : "mezzanine"
+    },
+    "comment" : {
+      "en" : "Low-ceilinged spaces between two stories with higher ceilings, or for balconylike stories over a part of the story below, the lower story usually, but not necessarily, being the first story.",
+      "nl" : "Lage verdiepingen (letterlijk: halve verdiepingen) tussen twee hogere verdiepingen of bovenin een gebouw; ook balkonachtige verdiepingen boven een deel van de verdieping eronder, waarbij de lagere verdieping meestal, maar niet altijd, de eerste verdieping is."
+    },
+    "id" : "4",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/zones/aat-storeys#300002675",
+    "baseIri" : "https://w3id.org/con-tax/zones/aat-storeys",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/zones/aat-storeys",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.wikidata.org/entity/Q815421",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://vocab.getty.edu/aat/300002675",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "300002675",
+      "en" : "piani nobili",
+      "nl" : "bel-etages"
+    },
+    "comment" : {
+      "en" : "Use to designate second or sometimes third stories given greater apparent height or prominence on the exterior and a higher ceiling within, and containing the principal rooms of a building.",
+      "nl" : "Belangrijkste verdiepingen van huizen, waarin zich de representatieve ruimten bevinden. DEB"
+    },
+    "id" : "6",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/zones/aat-storeys#300002655",
+    "baseIri" : "https://w3id.org/con-tax/zones/aat-storeys",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/zones/aat-storeys",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.wikidata.org/entity/Q580731",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://vocab.getty.edu/aat/300002655",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "300002655",
+      "en" : "clerestories",
+      "nl" : "lichtbeuk"
+    },
+    "comment" : {
+      "en" : "Upper zones of walls rising above adjacent roofs and pierced by windows so as to admit light to a high central room or space flanked by lower rooms or spaces.",
+      "nl" : "Bovengedeelten van muren die boven aangrenzende daken uitsteken, en waar ramen inzitten om licht toe te laten in een centrale kamer of ruimte waar lagere kamers of ruimten aan grenzen."
+    },
+    "id" : "8",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/zones/aat-storeys#300004757",
+    "baseIri" : "https://w3id.org/con-tax/zones/aat-storeys",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/zones/aat-storeys",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://vocab.getty.edu/aat/300004757",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.wikidata.org/entity/Q234852",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "300004757",
+      "en" : "basements",
+      "nl" : "kelderverdieping"
+    },
+    "subClasses" : [ "19" ],
+    "comment" : {
+      "en" : "Use to designate stories wholly or partly underground. For similar spaces used solely for storage, particularly food, prefer \"cellars.\"",
+      "nl" : "Verdiepingen die geheel of gedeeltelijk onder de grond liggen. Voor soortgelijke ruimten die alleen voor opslag van vooral voedsel worden gebruikt, wordt aan 'kelders' de voorkeur gegeven."
+    },
+    "id" : "10",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/zones/aat-storeys#300002678",
+    "baseIri" : "https://w3id.org/con-tax/zones/aat-storeys",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/zones/aat-storeys",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.wikidata.org/entity/Q751239",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://vocab.getty.edu/aat/300002678",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "300002678",
+      "en" : "triforiums",
+      "nl" : "triforiums"
+    },
+    "comment" : {
+      "en" : "Stories in basilican church interiors that correspond to the level between the vaulting and the aisle roof, or the vaulting of the tribune and the tribune roof; may or may not contain a small passage. Distinct from \"tribunes (stories),\" which always have substantial passages.",
+      "nl" : "Verdiepingen in basilicale kerkinterieurs net onder het dak van de zijbeuk of - indien aanwezig - net onder het dak van de tribune, geopend naar het middenschip; ze kunnen een kleine doorgang bevatten. Te onderscheiden van 'tribunes (verdiepingen)', die altijd ruime doorgangen hebben."
+    },
+    "id" : "12",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bot#Storey",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Storey"
+    },
+    "subClasses" : [ "1" ],
+    "attributes" : [ "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.w3.org/2006/vcard/ns#Individual",
+    "baseIri" : "http://www.w3.org/2006/vcard/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Individual"
+    },
+    "attributes" : [ "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://w3id.org/con-tax/zones/aat-storeys#300002667",
+    "baseIri" : "https://w3id.org/con-tax/zones/aat-storeys",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/zones/aat-storeys",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://vocab.getty.edu/aat/300002667",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "300002667",
+      "en-us" : "stories (building divisions)",
+      "nl" : "verdiepingen"
+    },
+    "subClasses" : [ "18", "4", "6", "8", "10", "12", "14", "0" ],
+    "comment" : {
+      "en" : "Horizontal stages or levels of a building positioned one above the other and having a habitable or usable room or set of rooms on each level. The term may also refer to horizontal divisions of the exteriors of buildings that typically, but not always, correspond to the levels of interior spaces; exterior indications of stories include tiers or rows of orders, columns, window mullions, or other features disposed horizontally one above another. ",
+      "nl" : "Wordt gebruikt voor de bewoonbare ruimten tussen twee vloeren van een gebouw, of tussen een vloer en het dak, en voor de horizontale verdelingen aan de buitenkanten van gebouwen die over het algemeen overeenkomen met deze verdeling van de binnenruimte."
+    },
+    "id" : "1",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/zones/aat-storeys#300076650",
+    "baseIri" : "https://w3id.org/con-tax/zones/aat-storeys",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/zones/aat-storeys",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://vocab.getty.edu/aat/300076650",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "300076650",
+      "en-us" : "subbasements",
+      "nl" : "onderkelders"
+    },
+    "comment" : {
+      "en" : "Use to designate stories beneath basements.",
+      "nl" : "Kelderverdiepingen onder souterrains."
+    },
+    "id" : "14",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/zones/aat-storeys#300265217",
+    "baseIri" : "https://w3id.org/con-tax/zones/aat-storeys",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/zones/aat-storeys",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.wikidata.org/entity/Q5378424",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://vocab.getty.edu/aat/300265217",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "300265217",
+      "en" : "English basements",
+      "nl" : "souterrains"
+    },
+    "comment" : {
+      "en" : "Floor of a building that is partially both below and above ground level, and lacking an entrance at that level.",
+      "nl" : "Etage van een gebouw die deels onder en deels boven grondniveau ligt, en op dat niveau geen ingang heeft."
+    },
+    "id" : "19",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://purl.org/vocommons/voaf#Vocabulary",
+    "baseIri" : "http://purl.org/vocommons/voaf",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vocabulary"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/con-tax/zones/aat-storeys",
+      "baseIri" : "https://w3id.org/con-tax/zones",
+      "labels" : {
+        "IRI-based" : "aat-storeys"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "23"
+  } ],
+  "property" : [ {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "1",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "3"
+  }, {
+    "range" : "1",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "5"
+  }, {
+    "range" : "1",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "7"
+  }, {
+    "range" : "1",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "9"
+  }, {
+    "range" : "1",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "11"
+  }, {
+    "range" : "1",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "15"
+  }, {
+    "range" : "17",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "16"
+  }, {
+    "range" : "10",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "20"
+  }, {
+    "range" : "1",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  } ]
+}
